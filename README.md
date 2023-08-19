@@ -1,8 +1,5 @@
 # Java-Journey-From-Fundamentals-to-Mastery
 
-# Java Journey: From Fundamentals to Mastery
-
-![Java Journey Banner](banner.jpg)
 
 Welcome to the **Java Journey: From Fundamentals to Mastery** repository! This repository is designed to be your comprehensive guide to learning Java programming, starting from the very basics and progressing all the way to mastering advanced concepts. Whether you're a beginner looking to get started with programming or an experienced developer aiming to enhance your Java skills, this repository has something for everyone.
 
