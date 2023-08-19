@@ -1,1 +1,1 @@
-# JavaJourney-From-Fundamentals-to-Mastery
+# Java-Journey-From-Fundamentals-to-Mastery
