@@ -1,0 +1,42 @@
+>> if else SYNTEX <<
+statement 1;
+statement 2;
+
+if(condition){
+
+statement 3
+statement 4
+}
+else{
+    statement 5
+    statement 6
+}
+statement 7
+statement 8
+..................................................................................................................................................
+
+>> else if SYNTEX <<
+if (condition1) {
+        Code to execute if condition1 is true
+} else if (condition2) {
+  
+} else if (condition3) {
+    
+} else {
+        execute if none of the above conditions are true
+}
+..................................................................................................................................................
+
+>> Switch SYNTEX <<
+switch(variable){
+case 1: statement 1;
+        break;
+        
+case 1: statement 2;
+        break;
+        
+case 1: statement 3;
+        break;
+        
+default: statement 4;
+}
