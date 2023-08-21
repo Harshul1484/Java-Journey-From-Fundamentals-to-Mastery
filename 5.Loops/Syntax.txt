@@ -1,0 +1,27 @@
+Loops
+
+>> for Loops SYNTEX <<
+for(initialisation; condition; updation){//do something}
+
+- initialisation >> int counter = 0
+- condition >> terminating condition(counter < 100)
+- updation >> counter = counter + 1
+
+>> while Loops SYNTEX <<
+while(condition){//do something}
+
+int i = 0
+while(i<11){
+    print(i)
+}
+
+>> do while Loops SYNTEX <<
+do{
+    //do something
+} while(condition);
+
+>> Nested Loops SYNTEX <<
+for(..){
+    for(..){
+    }
+}
