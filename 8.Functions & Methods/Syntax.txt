@@ -1,0 +1,19 @@
+Functions & Methods
+
+>> Function SYNTEX <<
+returnType FunctionName(type arg1, type arg2..){
+    //operations
+}
+
+- void --> spacial type of returnType -> no return
+
+>> do while Loops SYNTEX <<
+do{
+    //do something
+} while(condition);
+
+>> Nested Loops SYNTEX <<
+for(..){
+    for(..){
+    }
+}
