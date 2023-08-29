@@ -1,0 +1,8 @@
+Arrays: List of items of the same type
+
+>> Array SYNTEX <<
+new = keyword used to get new space in memeory for non premitive data type
+type[]arrayName = new type[size];
+
+>> defining an Array
+type[]arrayName = {1,2,3,4,5,6};
