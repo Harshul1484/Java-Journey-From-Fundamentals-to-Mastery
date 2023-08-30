@@ -1,0 +1,18 @@
+2D Array is similar to 2D matrices
+
+>> 2D Array SYNTEX <<
+type[][]arrayName = new type[row][colimns];
+
+For example, if you want to create a 2D array of integers with 3 rows and 5 columns:
+eg.: int[][] number=new int[3][5];
+
+This sets up a 2D array named `numbers` that can store integers in a 3x5 grid (3 rows and 5 columns).
+
+
+
+>> 2D Arrays in Java:
+A 2D array in Java is like a table with rows and columns. 
+It lets you store data in a grid format, where each cell can hold a value. 
+It's a collection of arrays where each array represents a row, and the elements within that array represent the columns.
+
+2D arrays can be very useful when you need to organize data in a structured way, such as representing a chessboard, a spreadsheet, an image's pixels, and more.
