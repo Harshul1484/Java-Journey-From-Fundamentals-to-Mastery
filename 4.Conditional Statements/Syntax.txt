@@ -1,42 +1,35 @@
->> if else SYNTEX <<
-statement 1;
-statement 2;
+1. If-Else Statement Syntax:
 
-if(condition){
+   if (condition) {
+       // Code to execute if the condition is true
+   } else {
+       // Code to execute if the condition is false
+   }
 
-statement 3
-statement 4
-}
-else{
-    statement 5
-    statement 6
-}
-statement 7
-statement 8
-..................................................................................................................................................
+2. Else-If Statement Syntax (Chained Ifs):
 
->> else if SYNTEX <<
-if (condition1) {
-        Code to execute if condition1 is true
-} else if (condition2) {
-  
-} else if (condition3) {
-    
-} else {
-        execute if none of the above conditions are true
-}
-..................................................................................................................................................
+   if (condition1) {
+       // Code to execute if condition1 is true
+   } else if (condition2) {
+       // Code to execute if condition2 is true
+   } else if (condition3) {
+       // Code to execute if condition3 is true
+   } else {
+       // Code to execute if none of the above conditions are true
+   }
 
->> Switch SYNTEX <<
-switch(variable){
-case 1: statement 1;
-        break;
-        
-case 1: statement 2;
-        break;
-        
-case 1: statement 3;
-        break;
-        
-default: statement 4;
-}
+3. Switch Statement Syntax:
+
+   switch (variable) {
+       case 1:
+           // Code to execute if variable equals 1
+           break;
+       case 2:
+           // Code to execute if variable equals 2
+           break;
+       case 3:
+           // Code to execute if variable equals 3
+           break;
+       default:
+           // Code to execute if variable doesn't match any case
+   }
