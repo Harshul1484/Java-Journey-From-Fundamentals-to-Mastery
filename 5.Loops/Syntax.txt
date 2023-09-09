@@ -1,27 +1,28 @@
-Loops
+Sure, here's the information in a more concise Java syntax format:
 
->> for Loops SYNTEX <<
-for(initialisation; condition; updation){//do something}
-
-- initialisation >> int counter = 0
-- condition >> terminating condition(counter < 100)
-- updation >> counter = counter + 1
-
->> while Loops SYNTEX <<
-while(condition){//do something}
-
-int i = 0
-while(i<11){
-    print(i)
+>> For Loop:
+for (int counter = 0; counter < 100; counter++) {
+    // do something
 }
 
->> do while Loops SYNTEX <<
-do{
-    //do something
-} while(condition);
 
->> Nested Loops SYNTEX <<
-for(..){
-    for(..){
+>> While Loop:
+int i = 0;
+while (i < 11) {
+    // do something
+    i++;
+}
+
+
+>> Do-While Loop:
+do {
+    // do something
+} while (condition);
+
+
+>> Nested Loops:
+for (...) {
+    for (...) {
+        // nested loop logic
     }
 }
