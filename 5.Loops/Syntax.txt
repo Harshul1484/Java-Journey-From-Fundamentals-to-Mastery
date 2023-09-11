@@ -1,5 +1,3 @@
-Sure, here's the information in a more concise Java syntax format:
-
 >> For Loop:
 for (int counter = 0; counter < 100; counter++) {
     // do something
