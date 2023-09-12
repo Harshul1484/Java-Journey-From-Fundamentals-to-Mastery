@@ -1,19 +1,53 @@
-Functions & Methods
+Function/Method Syntax :
 
->> Function SYNTEX <<
-returnType FunctionName(type arg1, type arg2..){
-    //operations
+
+returnType functionName(type arg1, type arg2, ...) {
+    // Function/Method body (operations)
+    // Optionally, return a value using the 'return' statement if returnType is not 'void'
 }
 
-- void --> spacial type of returnType -> no return
 
->> do while Loops SYNTEX <<
-do{
-    //do something
-} while(condition);
+- `returnType`: The data type of the value that the function/method returns. Use 'void' if it doesn't return a value.
+- `functionName`: The name of the function/method.
+- `type arg1, type arg2, ...`: The parameters or arguments passed to the function/method.
 
->> Nested Loops SYNTEX <<
-for(..){
-    for(..){
+Example Function/Method:
+int add(int a, int b) {
+    return a + b;
+}
+
+
+Do-While Loop Syntax:
+
+do {
+    // Code to be executed at least once
+} while (condition);
+
+
+- The code block inside the 'do' will execute at least once before checking the condition.
+
+Example Do-While Loop:
+
+int count = 0;
+do {
+    System.out.println("Count: " + count);
+    count++;
+} while (count < 5);
+
+Nested Loop Syntax:
+
+for (initialization; condition; increment/decrement) {
+    for (initialization; condition; increment/decrement) {
+        // Code to be executed inside the nested loop
+    }
+}
+
+- You can nest loops by placing one loop inside the other to create multiple levels of iteration.
+
+Example Nested Loops:
+
+for (int i = 1; i <= 3; i++) {
+    for (int j = 1; j <= 3; j++) {
+        System.out.println("i: " + i + ", j: " + j);
     }
 }
